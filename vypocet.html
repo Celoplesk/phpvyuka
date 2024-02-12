@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jednoduchá kalkulačka</title>
+</head>
+<body>
+
+<h2>Jednoduchá kalkulačka</h2>
+
+<form method="post" action="index.php">
+    <label for="cislo1">První číslo:</label>
+    <input type="number" id="cislo1" name="cislo1"><br><br>
+    
+    <label for="cislo2">Druhé číslo:</label>
+    <input type="number" id="cislo2" name="cislo2"><br><br>
+    
+    <label for="operace">Operace:</label>
+    <select id="operace" name="operace">
+        <option value="plus">Sčítání</option>
+        <option value="minus">Odčítání</option>
+        <option value="krat">Násobení</option>
+        <option value="deleno">Dělení</option>
+    </select><br><br>
+    
+    <input type="submit" name="submit" value="Vypočítat">
+</form>
+
+    
